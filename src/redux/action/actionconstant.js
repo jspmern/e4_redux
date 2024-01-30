@@ -1,2 +1,5 @@
 export let INC="INC"
 export let DEC="DEC"
+export let DEL="DEL"
+export let EDIT="EDIT"
+export let ADD="ADD"

@@ -1,5 +1,6 @@
-import {createStore} from 'redux'
-import { countReducer } from './reducer/counterReducer'
- 
+import { createStore } from 'redux'
 
-export let store= createStore(countReducer)
+import { rootReducer } from './reducer'
+
+
+export let store = createStore(rootReducer)
